@@ -10,10 +10,123 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
-  </header>
-  <main>
-  </main>
+  <div class="container">
+    <header>
+      <div class="row justify-center margin-bottom-30">
+        <div class="column-full text-center">
+          <h1>Ajax <span class="purple">Project</span></h1>
+          <h3>Discover Properties for <span class="purple">rent</span> in your area</h3>
+        </div>
+      </div>
+    </header>
+    <main>
+      <form action="" class="form">
+        <div class="row justify-center margin-bottom-30">
+          <div class="columm-full">
+            <div class="input-box margin-r8">
+              <input type="text" id="location" required>
+              <span>Location</span>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-center margin-bottom-30">
+          <div class="column-half display-flex justify-space-evenly">
+            <div class="input-box-half">
+              <input type="text" id="bed" required>
+              <span>Bed</span>
+            </div>
+          </div>
+          <div class="column-half display-flex just justify-space-evenly">
+            <div class="input-box-half">
+              <input type="text" id="bath" required>
+              <span>Bath</span>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-center margin-bottom-30">
+          <div class="column-half display-flex justify-space-evenly">
+            <div class="input-box-half">
+              <input type="text" id="price" required>
+              <span>Max Price</span>
+            </div>
+          </div>
+          <div class="column-half display-flex just justify-space-evenly">
+            <div class="input-box-half">
+              <select name="sort" id="sort" class="purple">
+                <option value="sort">Sort by</option>
+                <option value="price">Price</option>
+                <option value="bed">Bed</option>
+                <option value="bath">Bath</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-center margin-bottom-30">
+          <div class="columm-full">
+            <button class="search">Search</button>
+          </div>
+        </div>
+      </form>
+    </main>
+  </div>
+  <div class="photo justify-center">
+    <div class="row justify-center margin-bottom-30 text-align-center">
+      <div class="columm-full display-flex flex-wrap justify-center">
+        <div class="entry">
+          <img src="/photos/stock-photo-expensive-private-villa-swimming-pool-in-a-private-house-evening-in-a-country-house-mansion-1070624348.jpg" alt="">
+          <h3>$3,800</h3>
+          <h3>2 bed - 2 bath</h3>
+          <h3>123 Seaside Way, Los Angeles, California, 90001</h3>
+          <h3 class="purple">Details</h3>
+        </div>
+        <div class="entry">
+          <img
+            src="/photos/stock-photo-palma-de-mallorca-spain-november-pool-area-in-a-residential-building-complex-in-cala-1126789565.jpg"
+            alt="">
+          <h3>$3,800</h3>
+          <h3>2 bed - 2 bath</h3>
+          <h3>123 Seaside Way, Los Angeles, California, 90001</h3>
+          <h3 class="purple">Details</h3>
+        </div>
+        <div class="entry">
+          <img
+            src="/photos/stock-photo-expensive-private-villa-swimming-pool-in-a-private-house-evening-in-a-country-house-mansion-1070624348.jpg"
+            alt="">
+          <h3>$3,800</h3>
+          <h3>2 bed - 2 bath</h3>
+          <h3>123 Seaside Way, Los Angeles, California, 90001</h3>
+          <h3 class="purple">Details</h3>
+        </div>
+        <div class="entry">
+          <img
+            src="/photos/stock-photo-palma-de-mallorca-spain-november-pool-area-in-a-residential-building-complex-in-cala-1126789565.jpg"
+            alt="">
+          <h3>$3,800</h3>
+          <h3>2 bed - 2 bath</h3>
+          <h3>123 Seaside Way, Los Angeles, California, 90001</h3>
+          <h3 class="purple">Details</h3>
+        </div>
+        <div class="entry">
+          <img
+            src="/photos/stock-photo-expensive-private-villa-swimming-pool-in-a-private-house-evening-in-a-country-house-mansion-1070624348.jpg"
+            alt="">
+          <h3>$3,800</h3>
+          <h3>2 bed - 2 bath</h3>
+          <h3>123 Seaside Way, Los Angeles, California, 90001</h3>
+          <h3 class="purple">Details</h3>
+        </div>
+        <div class="entry">
+          <img
+            src="/photos/stock-photo-palma-de-mallorca-spain-november-pool-area-in-a-residential-building-complex-in-cala-1126789565.jpg"
+            alt="">
+          <h3>$3,800</h3>
+          <h3>2 bed - 2 bath</h3>
+          <h3>123 Seaside Way, Los Angeles, California, 90001</h3>
+          <h3 class="purple">Details</h3>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
 </body>

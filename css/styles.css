@@ -1,0 +1,187 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.row {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: auto;
+  display: flex;
+  gap: 32px;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-third {
+  width: 33%;
+}
+
+.search {
+  width: 12rem;
+  height: 2rem;
+  border: 1px solid #562b81;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+  color: #562b81;
+  background-color: lightgray;
+}
+
+.entry {
+  width: 380px;
+  margin: 4px;
+  padding: 10px;
+  border: 1px solid #562b81;
+  box-shadow:
+    -1px 1px #562b81,
+    -2px 2px #562b81,
+    -3px 3px #562b81,
+    -4px 4px #562b81,
+    -5px 5px #562b81;
+}
+
+img {
+  width: 350px;
+  height: 250px;
+}
+
+select {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #562b81;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+}
+
+.input-box {
+  position: relative;
+  width: 24.5rem;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #562b81;
+  border-radius: 5px;
+  outline: none;
+  color: #562b81;
+  font-size: 1em;
+  background-color: lightgray;
+}
+
+.input-box span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  pointer-events: none;
+  font-size: 1em;
+  color: #562b81;
+  transition: 0.5s;
+  background-color: lightgray;
+}
+
+.input-box-half span {
+  position: absolute;
+  left: 5px;
+  bottom: 1px;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 1em;
+  color: #562b81;
+  transition: 0.5s;
+}
+
+.input-box input:valid ~ span,
+.input-box input:focus ~ span {
+  color: #562b81;
+  transform: translateX(2px) translateY(-15px);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background: lightgray;
+  border-left: 1px solid #562b81;
+  border-right: 1px solid #562b81;
+}
+
+.input-box-half {
+  position: relative;
+  width: 11.5rem;
+}
+
+.input-box-half input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #562b81;
+  border-radius: 5px;
+  outline: none;
+  color: #562b81;
+  font-size: 1em;
+}
+
+.input-box-half input:valid ~ span,
+.input-box-half input:focus ~ span {
+  color: #562b81;
+  transform: translateX(8px) translateY(-33px);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background: lightgray;
+  border-left: 1px solid #562b81;
+  border-right: 1px solid #562b81;
+}
+
+#location {
+  width: 25rem;
+}
+
+#bed,
+#bath {
+  width: 11.5rem;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.purple {
+  color: #562b81;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 20px;
+}
+
+.justify-space-evenly {
+  justify-content: space-evenly;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.margin-r8 {
+  margin-right: 8px;
+}

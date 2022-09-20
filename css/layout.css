@@ -1,0 +1,13 @@
+@media screen and (max-width: 576px) {
+  .container {
+    width: fit-content;
+  }
+
+  .column-full {
+    width: 100%;
+  }
+
+  .column-half {
+    width: 100%;
+  }
+}
